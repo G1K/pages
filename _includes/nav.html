@@ -12,15 +12,15 @@
             </button>
 
             <div class="logo">
-                <a href="/#page-top"><img class="logo-responsive" src="/img/profile.png" alt="{{ site.alt-logo }}"></a>
-                <a class="navbar-brand" href="/#page-top">{{ site.title }}</a>
+                <a href="{{ site.url }}/#page-top"><img class="logo-responsive" src="/img/profile.png" alt="{{ site.alt-logo }}"></a>
+                <a class="navbar-brand" href="{{ site.url }}/#page-top">{{ site.title }}</a>
             </div>
 
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+                {% if page.url == '/' %}
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
@@ -33,9 +33,7 @@
                 <li class="page-scroll">
                     <a href="#timeline">Хронология</a>
                 </li>
-                <li class="page-scroll">
-                    <a href="#contact">Контакты</a>
-                </li>
+                {% endif %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->

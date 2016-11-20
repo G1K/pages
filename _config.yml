@@ -15,10 +15,22 @@ gtm_id: GTM-KZW584P
 # Contact form:
 # - static : pass through formspree.io to validate email sending
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+contact: none
 
 paginate: 5
 
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+includejsarr:
+  - /js/cbpAnimatedHeader.js
 # Color settings (hex-codes without the leading hash-tag) http://colorscheme.ru/#0l41Ttlr6w0w0
 color:
   primary: 0C8E6A #80B3FF
@@ -29,10 +41,12 @@ color:
 # Footer settings
 footer:
   copyright: mrG1K
-  social: Другие способы связи
+  social: Я на связи
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: envelope
+    url: mailto:mr@g1k.ru
   - title: paper-plane
     url: https://telegram.me/mrG1K
   - title: bitbucket

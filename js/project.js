@@ -55,6 +55,7 @@ jQuery(document).ready(function () {
 });
 
 //	HISTORICIZE AND AJAXIFY OUR SITE
+/*
 jQuery(document).ready(function () {
     var siteUrl = 'http://' + (document.location.hostname || document.location.host);
 
@@ -72,3 +73,4 @@ jQuery(document).ready(function () {
         });
     });
 });
+    */
