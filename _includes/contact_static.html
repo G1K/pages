@@ -1,0 +1,54 @@
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Форма для обратной связи</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <form action="//formspree.io/{{ site.email}}" method="POST" name="sentMessage" id="contactForm"
+                      novalidate>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Имя</label>
+                            <input type="text" class="form-control" placeholder="Имя" id="name" required
+                                   data-validation-required-message="Пожалуйста, введите Ваше имя.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Адрес электронной почты</label>
+                            <input type="email" class="form-control" placeholder="Email" id="email" required
+                                   data-validation-required-message="Пожалуйста, введите Ваш адрес электронной почты."
+                                   data-validation-validemail-message="Недействительный адрес электронной почты">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="hidden" name="_subject" value="New submission!">
+                        <input type="text" name="_gotcha" style="display:none"/>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Сообщение</label>
+                            <textarea rows="5" class="form-control" placeholder="Сообщение" id="message" required
+                                      data-validation-required-message="Пожалуйста, введите сообщение."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="row">
+                        <div class="form-group col-xs-12">
+                            <button type="submit" class="btn btn-success btn-lg">Отправить</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

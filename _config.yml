@@ -1,0 +1,176 @@
+# Site settings
+title: mrG1K
+email: mr@g1k.ru
+url: https://g1k.ru
+alt-logo: "mrG1K - g1k.ru"
+description: ""
+skills: "SEO Specialist - Backend Developer - Linux Administrator"
+meta_author:
+
+google_verify: ibZlxo26nMnstqpcyInXVWAyLsFTmy3ZD4nnEAZV450
+bing_verify:
+yandex_verify: 8bf46849ef61757a
+gtm_id: GTM-KZW584P
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+paginate: 5
+
+# Color settings (hex-codes without the leading hash-tag) http://colorscheme.ru/#0l41Ttlr6w0w0
+color:
+  primary: 0C8E6A #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 164D8D #FD6E8A
+  secondary-dark: 072E5C #A2122F
+
+# Footer settings
+footer:
+  copyright: mrG1K
+  social: Другие способы связи
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: paper-plane
+    url: https://telegram.me/mrG1K
+  - title: bitbucket
+    url: https://bitbucket.org/mr_g1k/
+  - title: github
+    url: https://github.com/g1k
+
+# Build settings
+markdown: kramdown
+permalink: none
+
+# Career Settings
+career-img: "/img/timeline/default.jpg"
+
+collections:
+  achievements:
+    output: true
+  timelines:
+    output: false
+
+skills_bar:
+  seo:
+    category_name: Search Engine Optimization
+    items:
+      - name: SEO (внешняя/внутренняя)
+        color_title: 579D1C
+        color: 164D8D
+        percent: 80
+      - name: Техническая оптимизация
+        color_title: B3B3B3
+        color: 164D8D
+        percent: 90
+      - name: Аудит и рекомендации
+        color_title: FFD320
+        color: 164D8D
+        percent: 75
+      - name: Веб-аналитика
+        color_title: 7E0021
+        color: 164D8D
+        percent: 70
+      - name: Анализ сайтов конкурентов
+        color_title: 83CAFF
+        color: 164D8D
+        percent: 60
+      - name: Автоматизация процессов
+        color_title: 46465e
+        color: 164D8D
+        percent: 30
+  develop:
+    category_name: Web Development
+    items:
+      - name: PHP
+        color_title: 6082BB
+        color: 164D8D
+        percent: 40
+      - name: GIT
+        color_title: F05033
+        color: 164D8D
+        percent: 40
+      - name: Yii2
+        color_title: 46465e
+        color: 1D67A4
+        percent: 25
+      - name: Bitrix
+        color_title: C60C30
+        color: 164D8D
+        percent: 55
+      - name: ModX
+        color_title: 7ECE3B
+        color: 164D8D
+        percent: 60
+      - name: API Яндекс.Директ
+        color_title: FFCC01
+        color: 164D8D
+        percent: 30
+      - name: API Яндекс.Метрика
+        color_title: B98FDB
+        color: 164D8D
+        percent: 50
+      - name: API Google.Adwords
+        color_title: 0B7243
+        color: 164D8D
+        percent: 20
+  im:
+    category_name: Internet Marketing
+    items:
+      - name: Парсинг и Анализ данных
+        color_title: 46465e
+        color: 164D8D
+        percent: 75
+      - name: Excel
+        color_title: 02723B
+        color: 164D8D
+        percent: 60
+      - name: Power BI
+        color_title: F2C811
+        color: 164D8D
+        percent: 40
+      - name: Enhanced Ecommerce
+        color_title: FF861E
+        color: 164D8D
+        percent: 75
+      - name: Google Tag Manager
+        color_title: D02E2A
+        color: 164D8D
+        percent: 70
+      - name: Контекстная реклама
+        color_title: 46465e
+        color: 164D8D
+        percent: 60
+      - name: Яндекс.Маркет
+        color_title: 2B63B0
+        color: 164D8D
+        percent: 70
+      - name: Email маркетинг
+        color_title: 70C8D4
+        color: 164D8D
+        percent: 75
+      - name: Триггерные рассылки
+        color_title: E04644
+        color: 164D8D
+        percent: 65
+  admin:
+    category_name: Administration
+    items:
+      - name: Debian
+        color_title: D60651
+        color: 164D8D
+        percent: 40
+      - name: Web servers Apache/Nginx
+        color_title: 039639
+        color: 164D8D
+        percent: 50
+      - name: Sphinx search
+        color_title: 373535
+        color: 164D8D
+        percent: 35
+      - name: Мониторинг работы серверных приложений
+        color_title: 46465e
+        color: 164D8D
+        percent: 30
