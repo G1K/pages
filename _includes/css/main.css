@@ -118,6 +118,23 @@ header .intro-text .skills {
     display: block;
 }
 
+.logo-main {
+	width: 370px;
+	height: 370px;
+	-webkit-border-radius: 99em;
+	-moz-border-radius: 99em;
+	border-radius: 50%;
+	background-color: white;
+	margin: auto;
+	padding: 25px 20px;
+}
+
+.logo-main svg {
+	width: 330px;
+	height: 330px;
+	margin: auto;
+}
+
 @media (min-width: 768px) {
     header .container {
         padding-top: 200px;
