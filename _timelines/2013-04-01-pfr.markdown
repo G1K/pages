@@ -1,8 +1,9 @@
 ---
-layout: null
 title: Апрель 2013 - Апрель 2014
+date: 2013-04-01 00:00:00 Z
+layout: 
 subtitle: ПФР
-image: "img/timeline/pfr.jpg"
+image: img/timeline/pfr.jpg
 ---
 
 * Администрирование техники и программных комплексов, техническая поддержка сотрудников

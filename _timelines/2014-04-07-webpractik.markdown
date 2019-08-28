@@ -1,8 +1,9 @@
 ---
-layout: null
 title: Апрель 2014 - Настоящее время
+date: 2014-04-07 00:00:00 Z
+layout: 
 subtitle: Вебпрактик
-image: "img/timeline/webpractik.png"
+image: img/timeline/webpractik.png
 ---
 
 * Поисковая оптимизация клиентских сайтов
